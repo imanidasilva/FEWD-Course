@@ -1,0 +1,77 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #F6F6F6;
+    color: #05080C;
+    font-size: 18px;
+    line-height: 1.5;
+    margin:0; /*default margin, this takes out the default margin*/
+    border-top: 5px solid #222222 ;
+    border-bottom:5px solid #222222;
+    padding-left: 60px; /*since margin is at 0, padding pushed the content*/
+    padding-right:60px;
+}
+
+p{ /*would i need this? why can't this be included in the body, I think having a better understanding of tabbing would help*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img { /*what does float mean?*/  
+    float: right;
+    margin-left:20px;
+}
+
+nav{
+    text-decoration: underline;
+}
+
+th{ /*would it make sense to do something like table th since it is a child of table?*/
+    color: white;
+    background-color: #222222;
+    padding: 10px;
+    
+}
+
+td {
+    background-color: #eeeeee;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body {
+    color: #05080C;
+    font-family: sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0;
+    background: #F6F6F6;
+  }
+  
+  p {
+    font-family: Georgia,Times,"Times New Roman",serif;
+  }
+  
+  header {
+    border-top: 5px solid #222222;
+    padding: 0 100px;
+  }
+  
+  article {
+    border-bottom: 5px solid #222222;
+    padding: 0 100px;
+  }
+  
+  article img {
+    float: right;
+    margin-left: 20px;
+  }*/
