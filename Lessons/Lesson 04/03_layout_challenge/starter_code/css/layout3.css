@@ -1,0 +1,43 @@
+
+.exerciseHeader, .exerciseFooter, .exerciseMain {
+    margin: 0 10px 10px 10px;
+}
+
+.exerciseMainFeatures {
+    display: flex;
+
+
+}
+
+.exerciseMainFeatures .exerciseMarketingFeature {
+    width: 50%;
+    gap: 10px;
+    margin-bottom: 10px;
+
+
+}
+
+.exerciseMainFeatures .exerciseMarketingFeature:first-child {
+    width:50%; /* 100/2 gives this value*/
+    gap: 15px;
+
+}
+
+.exerciseAdditionalFeatures {
+    display: flex;
+    gap: 10px;
+
+}
+
+.exerciseAdditionalFeatures .exerciseMarketingFeature {
+    width:33%; /* 100/3 gives this value*/
+    gap: 15px;
+
+
+}
+
+.exerciseAdditionalFeatures .exerciseMarketingFeature:first-child {
+    width:50%;
+    gap: 15px;
+
+}

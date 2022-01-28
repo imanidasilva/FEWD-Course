@@ -1,0 +1,78 @@
+
+.exerciseFooter, .exerciseMain {
+    margin: 0 10px 10px 10px;
+}
+
+.exerciseHeader {
+    display: flex;
+    margin: 0 10px 10px 10px;
+
+
+}
+
+.exerciseHeaderLogo {
+    width: 200px;
+    height: 80px;
+
+}
+
+.exerciseHeaderNav {
+    width:25%
+
+}
+
+.exerciseHeaderNav ul {
+    display:flex;
+    list-style: none;
+    gap:10px;
+    width: 100%;
+}
+
+.exerciseHeaderNav ul li {
+    min-width:20%;
+
+
+}
+
+
+/* Main */
+
+.exerciseMain { /*this is the parent of exerciseMainContent and exerciseMainLeftNav*/
+    display:flex;
+    gap: 10px;
+
+}
+
+.exerciseMainLeftNav {/* the percentage (how wide) is relative to its parent*/
+    width: 25%;
+
+
+}
+
+.exerciseMainContent {
+    display: flex;
+    width:75%; /* the percentage (how wide) is relative to its parent*/
+    flex-wrap: wrap;
+
+
+}
+
+.exerciseMainContent > * {
+
+}
+
+.exerciseMainContentBanner {
+    width: 100%;
+
+}
+
+.exerciseMainContentSubBanner {  /* Parent is .exerciseMainContent. The percentage (how wide) is relative to its parent*/
+    width: 75%;
+
+}
+
+.exerciseMainContentBlock {
+    width: 25%;
+    
+
+}
