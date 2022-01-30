@@ -11,6 +11,39 @@ p {
   padding: 15px 0;
 }
 
+.pageHeader, .headerLogo{
+  background-color: black;
+
+}
+.pageHeader{
+  color: white;
+  display:flex;
+}
+.navagationBar ul{
+  display:flex;
+  list-style: none;
+  /*justify-content: space-between;*/
+  /*justify-content: flex-end;*/
+
+}
+img{
+  width:100%;
+}
+
+.navagationBar ul li{
+
+
+}
+.midcontent{
+  font-family:sans-serif;
+}
+
+
+.headerLogo{
+  color:#f2ff00;
+
+}
+
 /* Fonts, classes are so I can reuse the styles on a variety of elements */
 .merriweather { font-family: 'Merriweather', serif; }
       .oswald { font-family: 'Oswald', sans-serif; }
