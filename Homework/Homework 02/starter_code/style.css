@@ -11,38 +11,58 @@ p {
   padding: 15px 0;
 }
 
-.pageHeader, .headerLogo{
+.pageHeader{
   background-color: black;
+  height: 75px;
 
 }
 .pageHeader{
   color: white;
   display:flex;
-}
-.navagationBar ul{
-  display:flex;
-  list-style: none;
-  /*justify-content: space-between;*/
-  /*justify-content: flex-end;*/
+  align-items: center;
+  /* justify-content: center; */
 
 }
-img{
-  width:100%;
+
+.imageBackground{
+  background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/coworking.jpg");
 }
+/*.pageHeader .headerLogo{
+  justify-content: flex-start;
+}*/
 
-.navagationBar ul li{
-
-
+.navagationBar{
+  justify-content: flex-end;
 }
-.midcontent{
-  font-family:sans-serif;
-}
-
 
 .headerLogo{
   color:#f2ff00;
+  margin-right: 50%; /*Eveyrthing to the right of logo needs to be 50% away*/
+  justify-content: center;
+  /* margin-top:1%; */
+  align-self: center;
+  padding-top: 5px;
+  padding-left: 1px;
+}
+
+.navagationBar ul{
+  display:flex;
+  list-style: none;
+  gap: 10px;
 
 }
+
+.upperCase{
+  text-transform: uppercase;
+}
+
+.midcontent{
+  font-family:sans-serif;
+  background:#adadad;
+}
+
+
+
 
 /* Fonts, classes are so I can reuse the styles on a variety of elements */
 .merriweather { font-family: 'Merriweather', serif; }

@@ -13,51 +13,58 @@
     </head>
     <body>
 <!-- Put your glorious code here -->
-<header class="pageHeader">
-    <div class="headerLogo nav">Startup Matchmaker</div> <!--How do you read this line? what is it saying, I did this based on layout4 in exercises-->
+
+<!--This is showing that I have one box and it is broken up into the logo section and the nav section-->
+
+<header class="pageHeader"> <!--This header section is defined by pageHeader class name, if class name was not there, then it would just be header <header> StartupMarket </header>, is not needed because its the only header-->
+    <div class="headerLogo merriweather">
+        <h1>Startup Matchmaker</h1>
+    </div> <!--How do you read this line? what is it saying, I did this based on layout4 in exercises-->
     <nav class="navagationBar">
         <ul>
-            <li class="nav">Find Developers</li>
-            <li class="nav">Find Designers</li>
-            <li class="nav">How it Works</li>
-            <li class="nav">Our Team</li>
-            <li class="nav">Blog</li>
+            <li class="nav upperCase oswald"><h3>Find Developers</h3></li> <!--This has 2 class names, so if i wanted to style it would either be nav or uppercase because they are 2 different class-->
+            <li class="nav upperCase oswald"><h3>Find Designers</h3></li>
+            <li class="nav lato"><h3>How it Works</h3></li>
+            <li class="nav lato"><h3>Our Team</h3></li>
+            <li class="nav lato"><h3>Blog</h3></li>
         </ul>
     </nav>  
 </header>
 
 <main class="mainContent"> <!--How do you know when to use a class? I used layout 4 as an example but I still am confused on when to use a class and how to know what children it will have-->
-
+    <!--The main is the big box and each section is a smaller subsection of the main box and then keeps going from there-->
+ <div class="imageBackground">   <!--Creating the center section where the image will go, wouldn't need to have the img actually in code-->
     <section class="midContent">
         <h2>Because two brains are better than one</h2>
     </section>
-    <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/coworking.jpg">
     <section class="midContentInfo">
         <h1>Meet Your Match</h1>
         <p>Have a great idea for a product, but need help making it a reality? We're here to help. Startup Matchmaker is the best place for designers and developers to find each other.</p>
         Create a profile
     </section>
-        
+</div>       
 
     <section class="AdditionalFeatures">
-        <div class="Feature nav">
+        <div class="Feature">
             <h1>Create a Profile</h1>
             <p>Are you a Designer? Developer? Put yourself out there so that others can find you!</p>
-            Sign up now</div>
-        <div class="Feature nav">
+            <button>Sign up now</button>
+
+        </div>
+        <div class="Feature">
             <h1>Find a Developer</h1>
             <p>ooking for a fantastic developer to work with on the next big thing? Look no further.</p>
-            Start Your Search
+            <button>Start Your Search</button>
         </div>
-        <div class="Feature nav">      
+        <div class="Feature">      
             <h1>Find a Designer</h1>
             <p>Need someone who can make a product intuitive and appealing? Get ready.</p>
-            Start Your Search   
+            <button>Start Your Search</button>   
         </div>
     </section> 
 </main>   
 
-<footer class="Footer nav">
+<footer class="Footer">
     2019 Startup Matchmaker. Made in NY.
 </footer>
 
