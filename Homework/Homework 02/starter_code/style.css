@@ -20,12 +20,15 @@ p {
   color: white;
   display:flex;
   align-items: center;
-  /* justify-content: center; */
+  border-bottom: 5px solid#f2ff00;
 
 }
 
 .imageBackground{
   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/2522641/coworking.jpg");
+  background-repeat: no-repeat;
+  height: 600px;
+  background-size: cover;
 }
 /*.pageHeader .headerLogo{
   justify-content: flex-start;
@@ -37,7 +40,7 @@ p {
 
 .headerLogo{
   color:#f2ff00;
-  margin-right: 50%; /*Eveyrthing to the right of logo needs to be 50% away*/
+  margin-right: 38%; /*Eveyrthing to the right of logo needs to be 50% away*/
   justify-content: center;
   /* margin-top:1%; */
   align-self: center;
@@ -64,10 +67,87 @@ p {
   padding-top:20px;
   padding-bottom: 20px;
   font-size: 18px;
+
 }
 
+.midContentInfo{
+  float: right;
+  background-color: rgba(255, 255, 255, 0.911);
+  height: 275px;
+  width: 400px;
+  text-align: left;
+  margin-top: 100px;
+  padding: 50px;
+  margin-right: 25px;
+ 
+  
+}
+
+/*.midContentInfo p{
+  overflow-wrap: break-word;
+
+} */
+
+.AdditionalFeatures{
+  display: flex;
+  gap: 10px;
 
 
+}
+.block{
+  display: block;
+  text-transform: uppercase;
+  width: 100%;
+  border: none;
+  background-color: #adadad ;
+  color: black;
+  padding: 10px 30px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  border-radius: 5px;
+}
+
+.yellow-background{
+  background-color: #f2ff00;
+  color: black;
+  padding: 10px 30px;
+  text-align:center;
+  font-size: 24px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  width:100%;
+  cursor: pointer;
+  /* border-bottom:1px solid rgba(255, 230, 0, 0.534); */
+
+
+}
+
+.border{
+  border-left:1px solid rgb(202, 199, 199);
+  border-right: 1px solid rgb(202, 199, 199);
+}
+
+.Feature{
+  padding: 20px;
+  margin:10px;
+}
+
+.Footer{
+  background-color: black;
+  color: white;
+  height: 40px;
+  padding-top: 5px;
+  padding-left: 30px;
+}
+
+.underline{
+  border-bottom: 2px solid #f2ff00;
+}
+
+.strikethrough{
+  text-decoration: line-through;
+}
 
 /* Fonts, classes are so I can reuse the styles on a variety of elements */
 .merriweather { font-family: 'Merriweather', serif; }
