@@ -1,4 +1,84 @@
-### Colors
+/* ### Colors
 Green: #20c063 / RGBA(32,192,99,1)
 Gray: #e8e9ea  / RGBA (232,233,234,1)
-Dark Text: #3b4144 / RGBA (59,65,68,1)
+Dark Text: #3b4144 / RGBA (59,65,68,1) */
+
+/* body{
+    height:100;
+} */
+
+/* Navigation Bar */
+a {
+    text-decoration: none;
+    color: white;
+}
+.trulia_siteheader{
+    display: flex;
+    /* color: white; */
+    background-color: #20c063;
+    justify-content: space-between;
+    height: 40px;
+
+}
+
+.trulia-nav-logo{
+    height: 20px;
+    padding: 15px 20px;
+}
+
+.trulia_siteheader_leftnav{
+    display:flex;
+
+}
+.trulia_siteheader_leftnav ul{
+    list-style: none;
+    display:flex;
+    gap: 20px;
+}
+
+.trulia_siteheader_rightnav ul
+{
+    list-style: none;
+    display:flex;
+    gap: 20px;
+}
+
+.second_header_container{
+    display: flex;
+    background-color: white;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.trulia_second_header{
+    display: flex;
+    gap: 15px;
+
+}
+.trulia_second_header h3, p {
+    font-size: 14px;
+}
+
+
+.trulia-grid{
+    background-color: #e8e9ea;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    padding: 15px;
+}
+
+.trulia-grid-item{
+    display: flex;
+
+}
+.trulia-grid-item ul{
+    list-style: none;
+}
+
+.trulia-house-facts ul{
+    gap: 5px;
+    display: flex;
+    align-items: center;
+}
