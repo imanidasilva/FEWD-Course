@@ -55,8 +55,13 @@ a {
     display: flex;
     gap: 15px;
 
+
 }
-.trulia_second_header h3, p {
+.trulia_second_header h3 {
+    font-size: 14px;
+}
+
+.trulia_second_header p{
     font-size: 14px;
 }
 
@@ -171,4 +176,11 @@ a {
 
 #results_page{
     color: #787d81;
+}
+
+.trulia_footer_1{
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px 15px 15px 0px;
+    padding-left: 20px;
 }
