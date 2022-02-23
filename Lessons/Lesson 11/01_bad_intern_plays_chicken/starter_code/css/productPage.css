@@ -86,7 +86,7 @@
 .pdeChickenDataPricingTable {
     width:100%;
     margin: 1rem 0;
-    text-align: left;
+    text-align: center;
     border: 1px solid #332A10;
 }
 
@@ -130,7 +130,7 @@
 
 .pbePurchaseForm input[type=submit] {
     background: #22495E;
-    color: goldenrod;
+    color: white;
     padding: 10px;
     text-transform: uppercase;
     display:block;
@@ -166,9 +166,9 @@
 }
 
 
-@media (min-width:768px) {
+@media (max-width:768px) {
     .pbeCrossSell > li {
-        grid-column:span 4;
+        grid-column: span 2;
     }
 }
 
@@ -178,10 +178,12 @@
     width:100%;
     display:block;
     box-sizing:content-box;
+    
 }
 
 .pbeChickenBreedBlock * {
     box-sizing:content-box;
+    text-decoration: none;
 }
 
 .pbeChickenBreedBlock > a {
@@ -189,6 +191,7 @@
     border: 1px solid #332A10;
     padding:0;
     margin:0;
+   
 }
 
 .pbeChickenBreedBlock img {
