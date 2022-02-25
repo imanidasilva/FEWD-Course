@@ -9,7 +9,7 @@ let scoreEl = document.querySelector('.js-score');
 //implement listener - when user click score add 10
 arenaEl.addEventListener("click", function(e){
     score += 10;
-    //console.log(e.target.classList)
+    console.log(e.target.classList)
   //user reacher 100 - move on 
   if (score > 100){
     declareWinner();
