@@ -5,10 +5,19 @@ function validateSignInForm(e){
     let messages = new Array;
 
     // Get password and validate
-   
+   var thePassword = document.querySelector("#inputPassword3").value;
+
+   if(thePassword.length <= 3){
+    messages.push("The password is too short");
+
+}
 
     // Get email address and validate
-   
+    var theEmail = document.querySelector("#inputEmail3").value;
+
+    if(!ValidateEmail(theEmail)){
+        messages.push("Incorrect Email");
+    }
 
     // If no error messages show submit message
     let outputMessage = "";
@@ -31,16 +40,40 @@ function validateNewUserForm(e){
     e.preventDefault();
 
      // Set up message array
-    
+     let messages = new Array;
 
     // Get email address and validate
-    
-    // Get passwords and validate
-        // Make sure that both passwords match
+    var theEmail = document.querySelector("#inputEmail").value;
 
+    if(!ValidateEmail(theEmail)){
+        messages.push("Incorrect Email");
+    }
+    // Get passwords and validate
+    const thePW1 = document.querySelector("#inputPassword5").value;
+    const thePW2 = document.querySelector("#inputPassword4").value;
+
+        // Make sure that both passwords match
+        if(thePassword.length <= 3 || thePW2.length <=3){
+            messages.push("The password is too short");
+        }
+        if(thePW1 !== thePW2){
+            messages.push("Invalid Password");
+
+        }
         
     // Validate Names
-    
+
+    const inputFName = document.querySelector("#inputFName").value;
+    const inputLName = document.querySelector("#inputLName").value;
+
+    if(inputFName.length <=3){
+        messages.push("First name is invalid");
+    }
+
+    if(inputLName.length <=3){
+        messages.push("Last name is invalid");
+    }
+
 
      // If no error messages show submit message
      let outputMessage = "";
@@ -84,4 +117,5 @@ document.addEventListener('DOMContentLoaded', function(event) {
 
     // Bind a validation function to the submit of the profile
 
+    document.querySelector("#profile .relaxrLoginForm").addEventListener('submit', validateNewUserForm)
 });

@@ -30,6 +30,30 @@
 		<section id="contact" class="relaxrFormTwinCol">
 			<div class="relaxrFormTwinCol_body">
 				<h1>Contact Us</h1>
+				<form action="http://null.local/contactform.php" method="post" class="cd-form">
+				<fieldset>
+					<legend>Who are you?</legend>
+					<label for="cd-name">Name</label>
+					<input type="text" id="cd-name" name="cd-name" class="user">
+
+					<label for="cd-company">Company</label>
+					<input type="text" id="cd-company" name="cd-company" class="company">
+
+					<label for="cd-email">Email</label>
+					<input type="email" id="cd-email" name="cd-email" class="email">
+				</fieldset>
+
+				<fieldset>
+					<label for="cd-message">Message</label>
+					<textarea id="cd-message" name="cd-message" class="message"></textarea>
+				</fieldset>
+
+				<input type="submit" value="Send Message">
+
+
+				</form>
+
+
 
 			</div>
 			<aside class="relaxrFormTwinCol_sidebar">

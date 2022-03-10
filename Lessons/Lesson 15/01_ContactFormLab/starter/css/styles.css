@@ -134,7 +134,8 @@ input[type="email"],
 textarea,
 select {
   padding: 12px;
-  border: 1px solid brown;
+  border: 1px solid #cfd9db;
+  border-radius: 0.25em;
   background-color: #ffffff;
 }
 
@@ -178,6 +179,16 @@ input[type="submit"]:active {
   -ms-transform: scale(0.9);
   -o-transform: scale(0.9);
   transform: scale(0.9);
+}
+
+input[type="submit"] {
+  background-color: #2c97de;
+
+}
+
+input[type="submit"]:hover {
+  background-color: #42a2e1;
+
 }
 
 /* -------------------------------- 
