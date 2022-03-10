@@ -13,3 +13,8 @@
 // Hardest (only if you get the others first)
 // 1) Make the responsive menu work!
 // 2) Implement a modal window - "Sign up now" CTA when someone clicks the 'Sign Up' button
+
+
+document.querySelector(".burger").addEventListener("click",function(){
+    document.querySelector(".navigation").classList.toggle("nav_show")
+});

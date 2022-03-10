@@ -113,8 +113,28 @@ a {
 .responsiveTileGroupItem {
     padding: 10px;
     overflow: hidden;
+    border-bottom: 1px solid grey;
+    padding-bottom: 30px;
 }
 
+@media screen and (min-width: 769px) {
+    .responsiveTileGroup {
+        display: flex;
+        flex-wrap: wrap;
+        width:100%;
+    }
+
+    .responsiveTileGroupItem {
+        width: 50%;
+        border-bottom: none;
+        padding-bottom: 10px;
+    }
+    
+}
+
+.responsiveTileGroupItem:last-child{
+    border-bottom: none;
+}
 
 
 
