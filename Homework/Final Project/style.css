@@ -296,6 +296,9 @@ and (max-device-width : 480px)
         .classInfo{
             padding-top:30px;
         }
+        .midContentDiv{
+            flex:100%;
+        }
     
 }
 
@@ -316,6 +319,6 @@ and (max-width:700px){
 
 @media (min-width: 701px) and (max-width: 1024px) {
     .classInfo{
-        padding-top:75px;
+        padding-top:65px;
     }
    }
