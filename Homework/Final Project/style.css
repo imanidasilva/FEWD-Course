@@ -299,6 +299,15 @@ and (max-device-width : 480px)
         .midContentDiv{
             flex:100%;
         }
+
+        .nav-link{
+            font-size: 35px;
+        }
+
+        .transformationFooter{
+            margin-top: 150px;
+            
+            }
     
 }
 
