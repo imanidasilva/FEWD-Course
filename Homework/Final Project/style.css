@@ -1,6 +1,6 @@
-.carousel-item{
+/* .carousel-item{
 transition: transform 1s ease, opacity .5s ease-out;
-}
+} */
 /* Header  */
 .pageHeader{
 background: white;
@@ -308,6 +308,14 @@ and (max-device-width : 480px)
             margin-top: 150px;
             
             }
+        .Feature{
+            width:100%;
+            font-size:30px;
+        }
+        .midContentDiv img{
+            height:auto;
+            width: 100%;
+        }
     
 }
 
